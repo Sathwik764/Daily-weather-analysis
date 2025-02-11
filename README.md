@@ -1,47 +1,47 @@
-Weather Data Analysis
+# Weather Data Analysis
 
 ## 📌 Project Overview
-This project analyzes **weather data** to identify trends in temperature and rainfall using **data visualization and machine learning**. The analysis includes:
-- Data exploration and statistical summary
-- Monthly average temperature trends
-- Predicting rainfall using **Linear Regression*
+This project analyzes weather data using Python, focusing on temperature trends, rainfall distribution, and predictive modeling. It includes:
+- **Data Exploration & Visualization**
+- **Feature Engineering & Data Processing**
+- **Rainfall Prediction using Linear Regression**
+- **Advanced Visualizations** (saved as images for GitHub)
 
-## 📂 Files in this Repository
-- **weather_data_analysis.py** → Python script for data processing, visualization, and rainfall prediction.
-- **weather.csv** → Weather dataset (Ensure this file is in the same directory as the script).
-- **README.md** → Project description and setup instructions.
-- **output_visualizations/** → Contains sample graphs generated during analysis.
+## 📂 Files & Structure
+├── weather_data_analysis.py  # Main analysis script
+├── weather.csv               # Weather dataset
+├── README.md                 # Project documentation
+├── pairplot.png              # Pairplot visualization
+├── monthly_avg_max_temp.png  # Monthly temperature trends
+├── temperature_trends.png    # Daily min/max temperature trends
+├── rainfall_distribution.png # Rainfall distribution
+├── correlation_heatmap.png   # Correlation heatmap
+├── monthly_rainfall.png      # Monthly rainfall trends
 
-## 🔧 Requirements
-Install dependencies before running the script:
-pip install pandas matplotlib seaborn scikit-learn
+## 📊 Key Features
+### ✅ **Data Processing & Feature Engineering**
+- Converts weather records into structured format
+- Extracts **Month** from synthetic date values
 
-## ▶️ How to Run the Project
-1. **Clone this repository**  
-   git clone https://github.com/your-username/weather-data-analysis.git
-   cd weather-data-analysis
-2. **Ensure the dataset (`weather.csv`) is present**  
-3. **Run the script**  
-   python weather_data_analysis.py
-   
-## 📊 Key Features & Analysis
-✔ **Data Exploration**  
-   - Displays summary statistics and first few records  
-✔ **Visualizations**  
-   - Pair plots of temperature and rainfall  
-   - Monthly temperature trends  
-✔ **Rainfall Prediction**  
-   - Uses **Linear Regression** to predict rainfall  
-   - Computes Mean Squared Error (MSE)  
+### ✅ **Visualizations & Insights**
+- **Pairplot** of key features
+- **Temperature trends** over time
+- **Rainfall distribution**
+- **Feature correlation heatmap**
+- **Monthly rainfall trends**
 
-## 📌 Sample Outputs
-**1️⃣ Monthly Temperature Trends**  
-*(Graph showing monthly max temperature trends)*  
-![Monthly Temp](output_visualizations/monthly_temp_trends.png)  
+### ✅ **Rainfall Prediction Model**
+- Uses **Linear Regression** to predict rainfall based on temperature
+- Evaluates model using **Mean Squared Error (MSE) & R² Score**
 
-**2️⃣ Rainfall Prediction MSE Output**
-```
-Mean Squared Error for Rainfall Prediction: 3.42
-##Author
-Developed by
-www.linkedin.com/in/varanasi-sathwik  
+## 📈 Sample Results
+- The **visualizations** are saved as `.png` files in the repository.
+- Outputs include **temperature trends, rainfall distribution, and predictions**.
+
+## 🔮 Future Work
+- **Weather Classification Models**
+
+## 👨‍💻 Author
+https://github.com/Sathwik764
+www.linkedin.com/in/varanasi-sathwik
+
